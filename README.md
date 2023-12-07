@@ -1,6 +1,6 @@
-# Example: Controls
+# Description
 
-Demonstrates how various control components can be used with react-map-gl.
+This is a map displaying providers information of MCS(https://mcs.com.pr/en/Pages/home.aspx) with Category = General Medicine, Specialty = General Medicine and Location = San Juan.
 
 ## Usage
 
