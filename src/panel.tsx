@@ -34,7 +34,7 @@ function Panel() {
                 Address:
               </b>
               <div>
-                {provider.address}
+                <a href={`https://www.google.com/maps/search/${provider.address}`}>{provider.address}</a>
               </div>
               <b>
                 Bussiness Hour:

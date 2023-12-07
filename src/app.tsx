@@ -110,13 +110,13 @@ export default function App() {
                 Phone Number
               </b>
               <div>
-                {popupInfo.phoneNumber}
+                <a href={`tel:+1${popupInfo.phoneNumber}`}>+1 {popupInfo.phoneNumber}</a>
               </div>
               <b>
                 Address:
               </b>
               <div>
-                {popupInfo.address}
+                <a href={`https://www.google.com/maps/search/${popupInfo.address}`}>{popupInfo.address}</a>
               </div>
               <b>
                 Bussiness Hour:
