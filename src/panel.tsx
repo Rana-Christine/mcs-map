@@ -28,7 +28,7 @@ function Panel() {
                 Phone Number
               </b>
               <div>
-                {provider.phoneNumber}
+              <a href={`tel:+1${provider.phoneNumber}`}>+1 {provider.phoneNumber}</a>  
               </div>
               <b>
                 Address:
